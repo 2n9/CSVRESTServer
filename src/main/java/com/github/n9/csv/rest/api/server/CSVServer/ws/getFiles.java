@@ -11,8 +11,8 @@ public class getFiles {
     @ResponseBody
     @RequestMapping(value = "/", produces = "application/json")
     public String get() {
-        String str = hoge;
-        // todo: add get all file
+        String str = "test";
+        return str;
     }
 
 }
