@@ -12,4 +12,7 @@ public class getLineParam implements Serializable {
     @Getter @Setter
     public String path;
 
+    @Getter @Setter
+    private boolean byParts;
+
 }
