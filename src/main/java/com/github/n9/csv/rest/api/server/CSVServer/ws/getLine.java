@@ -15,7 +15,7 @@ public class getLine {
     @RequestMapping(value = "", produces = "application/json")
     public getLineMaster get(@RequestBody getLineParam param){
         getLineMaster glm = new getLineMaster();
-
+        glm.setLine("");
         return glm;
     }
 }
